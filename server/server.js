@@ -3,8 +3,6 @@ import { startStandaloneServer } from '@apollo/server/standalone';
 
 import mongoose from 'mongoose'
 
-var mongoDB = 'mongodb+srv://20981a05b1:VOA0JvEn3sju3jIs@quiz.1hqfwot.mongodb.net/sample_analytics?retryWrites=true&w=majority&appName=Quiz';
-
 mongoose.connect(mongoDB)
     .then(async () => {
 
